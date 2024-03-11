@@ -19,7 +19,7 @@ WeatherNaut is a simple weather application that allows users to check the curre
 
 ## Screenshots
 ![app1](https://github.com/JeremiahRanen7/WeatherNaut/assets/141173239/751b8fe4-2eed-491c-a2a5-a9ae74ff2780)
-[weather2](https://github.com/JeremiahRanen7/WeatherNaut/assets/141173239/6a8539d2-21cc-4a85-8b78-82e3c0a5e1f9)
+![weather2](https://github.com/JeremiahRanen7/WeatherNaut/assets/141173239/6a8539d2-21cc-4a85-8b78-82e3c0a5e1f9)
 
 ## Getting Started
 1. Clone the repository:
