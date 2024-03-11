@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Fredoka",sans-serif ;
+}
+
+body{
+    background-color: rgb(55, 202, 116); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+h2:first-of-type{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 900;
+    margin-left:20px
+}
+
+.input-section{
+    width: 20%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.input-section input{
+    width: 85%;
+    padding: 15px;
+    border-radius: 32px;
+    border: none;
+    outline: none;
+}
+
+.input-section button{
+    background: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.card{
+    width: 350px;
+    background-color: rgba(255,255,255,0.06);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter:blur(20px) ;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+    color: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+h4{
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 25px 0 10px 0;
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+h6{
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 900;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.card img{
+    width: 30%;
+}
+
+h1{
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 16px;
+}
+
+.wind-details , .sun-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.wind-detail , .sun-detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.wind-detail > h2{
+    font-size: 32px;
+}
+
+.sun-detail > h2{
+    font-size: 32px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 5px;
+    padding: 15px;
+    width: 100%;
+}
+
+.footer > p{
+    text-align:center;
+    color: #fff;
+    font-size: large;
+}
+
+.footer p > a{
+    color: #fff;
+    font-size: large;
+    text-decoration: underline;
+}
+
+#temperature{
+    text-align: center;
+}
